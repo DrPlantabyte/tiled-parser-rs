@@ -1,4 +1,6 @@
 # Tiled-Parser-RS
+![GitHub Workflow Build Status](https://github.com/DrPlantabyte/tiled-parser-rs/actions/workflows/build-main.yml/badge.svg) ![GitHub Workflow Test Status](https://github.com/DrPlantabyte/tiled-parser-rs/actions/workflows/unit-test-main.yml/badge.svg) [![codecov](https://codecov.io/gh/DrPlantabyte/tiled-parser-rs/branch/main/graph/badge.svg?token=SA5UFPQG7A)](https://codecov.io/gh/DrPlantabyte/tiled-parser-rs) [![Crate.io](https://img.shields.io/crates/v/tiled-parser-rs)](https://crates.io/crates/tiled-parser-rs) [![Redistribution license](https://img.shields.io/github/license/DrPlantabyte/tiled-parser-rs?color=green)](https://github.com/DrPlantabyte/tiled-parser-rs/blob/main/tiled-parser-rs/LICENSE)
+
 Library for parsing [Tiled](https://www.mapeditor.org/)'s .tmx and .tsx files in the Rust programming language.
 
 # Quickstart Guide
