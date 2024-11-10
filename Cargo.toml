@@ -1,0 +1,21 @@
+[package]
+name = "tiled_parser"
+authors = ["Christopher Collin Hall"]
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+description = "Library for parsing Tiled's .tmx and .tsx files in the Rust programming language."
+repository = "https://github.com/DrPlantabyte/tiled-parser-rs"
+homepage = "https://github.com/DrPlantabyte/tiled-parser-rs/tree/main/"
+readme = "README.md"
+documentation = "https://docs.rs/tiled-parser-rs/"
+keywords = ["tiled map editor", "tmx", "tsx", "xml", "parser"]
+categories = ["config", "parsing", "game-development"] # see https://crates.io/category_slugs
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+kiss_xml = "1"
+
+[dev-dependencies]
+tempfile = "3"
